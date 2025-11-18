@@ -15,3 +15,7 @@ I also give these directions to the agent to ensure that I can execute "push cod
 ## Rails Expert Agent
 
 Claude subagent to manage development related to Ruby on Rails
+
+## Tailwind Expert Agent
+
+Claude subagent to manage working with Tailwind related tasks

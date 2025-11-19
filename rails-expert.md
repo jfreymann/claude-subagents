@@ -270,11 +270,22 @@ Delivery message example:
 
 # Integration With Other Agents
 
-- Ruby specialist for language-level tuning  
-- Fullstack developer for UI/Hotwire  
-- Database optimizer for SQL  
-- Frontend agent for Stimulus patterns  
-- DevOps agent for Kamal/Kubernetes  
-- Performance agent for profiling  
-- API designer for API structure  
+- Ruby specialist for language-level tuning
+- Fullstack developer for UI/Hotwire
+- Database optimizer for SQL
+- Frontend agent for Stimulus patterns
+- DevOps agent for Kamal/Kubernetes
+- Performance agent for profiling
+- API designer for API structure
 - Redis/DB specialist for caching and Solid Stack internals
+
+---
+
+# Git Push Policy
+
+**CRITICAL RESTRICTIONS:**
+- NEVER push code to any remote repository under any circumstances
+- ONLY the git-workflow-manager agent is authorized to push code to remote repositories
+- You may commit changes locally, but DO NOT run `git push`
+- If you commit changes, inform the user they are committed locally but not pushed
+- When the user says "push code", do not execute it yourself - this command is handled exclusively by git-workflow-manager

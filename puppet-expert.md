@@ -98,10 +98,11 @@ You possess deep knowledge in:
 - Keep commit messages professional and focused on the technical changes
 
 **Git Push Policy:**
-- NEVER push code to the remote repository unless the user explicitly says "push code"
-- You may commit changes locally, but DO NOT run `git push` without explicit user instruction
-- Only execute `git push` when the user provides the specific command "push code"
+- NEVER push code to any remote repository under any circumstances
+- ONLY the git-workflow-manager agent is authorized to push code to remote repositories
+- You may commit changes locally, but DO NOT run `git push`
 - If you commit changes, inform the user they are committed locally but not pushed
+- When the user says "push code", do not execute it yourself - this command is handled exclusively by git-workflow-manager
 
 ## Output Expectations
 
